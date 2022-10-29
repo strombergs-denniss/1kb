@@ -1,0 +1,23 @@
+{
+    "name": "1kb",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./source/index"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/strombergs-denniss/1kb.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/strombergs-denniss/1kb/issues"
+    },
+    "homepage": "https://github.com/strombergs-denniss/1kb#readme",
+    "devDependencies": {
+        "uglify-js": "^3.17.4"
+    }
+}
