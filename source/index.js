@@ -21,8 +21,8 @@ fs.readdir(INPUT_PATH, (e, files) => {
                 try {
                     const data = fs.readFileSync(filePath, 'utf8')
                     const minified = Uglify.minify(data).code
-                    const compressed = compress(minified)
-                    const output = `<script>${ compressed }</script>`
+                    const compressed = minified //compress(minified)
+                    const output = `<body style="margin:0"><script>${ compressed }</script></body>`
                     console.log(minified)
                     console.log(minified.length, compressed.length, output.length)
 
